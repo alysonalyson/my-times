@@ -3,8 +3,31 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding: 10px 25px;
 }
 
 header h3 {
+  padding: 5px 10px;
   color: MediumAquamarine;
+  display: inline-flex;
+  flex-grow: 1;
+}
+
+nav {
+  justify-content: flex-end;
+  display: inline-flex;
+  flex-grow: 4;
+  padding-right: 50px;
+}
+
+header li {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 10px;
+}
+
+header a {
+  color: black;
 }
