@@ -139,3 +139,38 @@ header a {
   text-decoration: none;
   padding: 12px 15px;
 }
+
+.footer {
+  clear: both;
+  position: relative;
+  top: 150px;
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 300px;
+}
+
+.foot-nav {
+  display: inline-flex;
+}
+
+.title {
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ border-right: 2px solid white;
+ padding-right: 30px;
+ height: 30px;
+}
+
+.footer nav {
+  color: black;
+  list-style-type: none;
+  display: inline-flex;
+}
