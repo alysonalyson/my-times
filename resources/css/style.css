@@ -61,3 +61,35 @@ header a {
 .column, .article, .story-link, .caption {
   border: 1px solid black;
 }
+
+.pic {
+  background-size: cover;
+  background-color: darkGrey;
+}
+
+#story-main {
+  background-image: url("../images/story-main.png");
+  height: 350px;
+}
+
+#story1 {
+  background-image: url("../images/story-1.png");
+  width: 50%;
+  height: 200px;
+}
+
+#story2 {
+  background-image: url("../images/story-2.png");
+  width: 50%;
+  height: 200px;
+}
+
+#story3 {
+  background-image: url("../images/story-3.png");
+}
+
+.caption {
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 40px;
+}
