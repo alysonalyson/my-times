@@ -39,7 +39,6 @@ header a {
   display: flex;
   position: relative;
   top: 110px;
-  border: 1px solid black;
   font-family: Georgia, serif;
   font-size: 17px;
 }
@@ -54,10 +53,12 @@ header a {
 
 .medium {
   width: 300px;
+  flex-direction: column;
 }
 
 .small {
   width: 240px;
+  flex-direction: column;
 }
 
 .column, .article, .story-link, .caption, .pic {
@@ -112,4 +113,29 @@ header a {
 #story3 {
   background-image: url("../images/cat.png");
   height: 250px;
+}
+
+.news-bites {
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.news-bites h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.links ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.links li {
+  font-size: 12px;
+  border-bottom: 1px black solid;
+  background-color: WhiteSmoke;
+  color: DimGrey;
+  text-decoration: none;
+  padding: 12px 15px;
 }
