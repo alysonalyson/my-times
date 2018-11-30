@@ -62,7 +62,6 @@ header a {
 
 .column, .article, .story-link, .caption, .pic {
   flex-wrap: wrap;
-  border: 1px solid black;
 }
 
 .pic {
@@ -76,11 +75,14 @@ header a {
   color: white;
   font-size: 30px;
   font-weight: bold;
-  padding: 5% 5%;
+  text-align: center;
+  padding: 20% 5%;
 }
 
 .big {
   font-size: 40px;
+  padding: 5% 5%;
+  text-align: left;
 }
 
 .sm {
@@ -94,19 +96,20 @@ header a {
 }
 
 #story1 {
-  background-image: url("../images/story-1.png");
+  background-image: url("../images/girl.png");
   width: 48%;
   height: 250px;
   display: inline-flex;
 }
 
 #story2 {
-  background-image: url("../images/story-2.png");
+  background-image: url("../images/camera.png");
   width: 48%;
   height: 250px;
   display: inline-flex;
 }
 
 #story3 {
-  background-image: url("../images/story-3.png");
+  background-image: url("../images/cat.png");
+  height: 250px;
 }
