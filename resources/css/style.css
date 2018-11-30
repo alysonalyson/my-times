@@ -40,6 +40,8 @@ header a {
   position: relative;
   top: 110px;
   border: 1px solid black;
+  font-family: Georgia, serif;
+  font-size: 17px;
 }
 
 .column {
@@ -58,38 +60,53 @@ header a {
   width: 240px;
 }
 
-.column, .article, .story-link, .caption {
+.column, .article, .story-link, .caption, .pic {
+  flex-wrap: wrap;
   border: 1px solid black;
 }
 
 .pic {
   background-size: cover;
   background-color: darkGrey;
+  display: flex;
+}
+
+.caption {
+  flex-wrap: wrap;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5% 5%;
+}
+
+.big {
+  font-size: 40px;
+}
+
+.sm {
+  width: 48%;
+  display: inline-flex;
 }
 
 #story-main {
   background-image: url("../images/story-main.png");
-  height: 350px;
+  height: 300px;
 }
 
 #story1 {
   background-image: url("../images/story-1.png");
-  width: 50%;
-  height: 200px;
+  width: 48%;
+  height: 250px;
+  display: inline-flex;
 }
 
 #story2 {
   background-image: url("../images/story-2.png");
-  width: 50%;
-  height: 200px;
+  width: 48%;
+  height: 250px;
+  display: inline-flex;
 }
 
 #story3 {
   background-image: url("../images/story-3.png");
-}
-
-.caption {
-  color: white;
-  font-family: Georgia, serif;
-  font-size: 40px;
 }
